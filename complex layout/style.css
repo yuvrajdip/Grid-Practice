@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+}
+
+.main-wrappper{
+  padding: 1%;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.sidebar{
+  height: 100vh;
+  background: lightblue;
+}
+
+.right > *{
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+}
+
+.header{
+  height: 15%;
+  background: aqua;
+}
+
+.state{
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr );
+  gap: 1.5%;
+  height: 15%;
+}
+
+.state-1{
+  background: yellow;
+}
+.state-2{
+  background: tomato;
+}
+.state-3{
+  background: orange;
+}
+.state-4{
+  background: red;
+}
+
+.chart{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5%;
+  height:40%;
+}
+
+.chart-1{
+  background: royalblue;
+}
+.chart-2{
+  background: skyblue;
+}
+
+.last-sec{
+  height:20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5%;
+}
+
+.overview{
+  background: indigo;
+}
+
+.reminder{
+  background: violet;
+}
